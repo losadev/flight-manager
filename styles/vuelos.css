@@ -1,0 +1,23 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.filters-container {
+  margin-bottom: 2rem;
+}
+
+.filters-container form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filters-container select,
+.filters-container input {
+  max-width: 200px;
+}
+
+table th,
+table td {
+  vertical-align: middle;
+}
